@@ -1,0 +1,4 @@
+seen_pdfs.json
+ep01/seen_pdfs.json
+__pycache__/
+*.pyc
