@@ -1,4 +1,39 @@
 seen_pdfs.json
 ep01/seen_pdfs.json
+
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build and coverage output
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Generated databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

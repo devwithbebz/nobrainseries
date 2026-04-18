@@ -1,0 +1,15 @@
+{
+  "name": "weather-bulk",
+  "version": "1.0.0",
+  "description": "No Brain Build EP.02 — Bulk API fetch with SQLite + dashboard",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "start": "node index.js",
+    "retry": "node index.js --retry",
+    "dashboard": "node dashboard.js"
+  },
+  "dependencies": {
+    "sql.js": "^1.14.1"
+  }
+}
